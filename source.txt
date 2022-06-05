@@ -1,0 +1,60 @@
+FUNC 関数名
+	処理A
+	処理B
+	#コメント
+	処理C #コメント
+	
+	WHILE 条件
+		処理(while)A
+		処理(while)B
+		処理(while)C
+		
+	FOR 初期値; 条件; 変化量
+		処理(for)A
+		処理(for)B
+		処理(for)C
+		
+	IF 条件
+		処理(if)A
+		処理(if)B
+		処理(if)C
+	ELIF 条件
+		処理(elif)A
+		処理(elif)B
+		処理(elif)C
+	ELSE
+		処理(else)A
+		処理(else)B
+		処理(else)C
+	
+	SWITCH 変数
+	CASE 値A
+		処理(switch-case)A
+	CASE 値B
+		処理(switch-case)B
+	CASE 値C
+		処理(switch-case)C
+	
+	
+
+
+----------------------------------------------------------
+★記述ルール
+
+　1つの処理は１行で書く。
+　制御文は大文字で書く。
+　以下の文字は制御文として認識されるので処理の中では記述できない。
+　・FUNC
+　・WHILE
+　・FOR
+　・IF、ELIF、ELSE
+　・SWITCH、CASE
+　処理ブロックはインデントをそろえる。(Pythonと同じルール)
+　SWITCH-CASEはbreakいらない。
+　コメントは#をつける。
+----------------------------------------------------------
+
+
+
+
+
